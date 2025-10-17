@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(curl:*)",
+      "Bash(mkdir:*)",
+      "Bash(move:*)",
+      "Bash(mv:*)",
+      "Bash(dir:*)",
+      "Bash(powershell -Command \"Remove-Item -Path ''.next'' -Recurse -Force\")",
+      "Bash(timeout /t 10)",
+      "Bash(del postcss.config.mjs)",
+      "Bash(powershell -Command \"Remove-Item -Path ''postcss.config.mjs'' -Force\")",
+      "Bash(ping:*)",
+      "Bash(powershell -Command \"Stop-Process -Id 1392 -Force\")",
+      "Bash(timeout /t 3)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
